@@ -1,0 +1,96 @@
+body{background-color: rgb(247, 241, 241);
+   display: flex;
+
+}
+    
+
+.image{
+    width: 100%;
+    
+    display: flex;
+    
+
+}
+.first-image{
+   z-index: 100;
+   
+    
+
+    
+}
+ .container{
+    width: 430px;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+    background-color: rgb(253, 251, 251);
+    border-radius: 20px;
+    position: relative;
+    bottom: 70px;
+    display:flex;
+    
+    
+    
+ }
+ .child1{
+    margin-left: 20px;
+margin-right: 20px;
+
+ }
+ .faq{
+    font-weight:900;
+    display: flex;
+    font-size: xx-large;
+    gap: 10px;
+    
+ }
+ .fm{
+    font-size: small;
+    display: flex;
+ }
+ .frontend{
+    font-weight: bolder;
+    display: flex;
+    font-size: small;
+    gap: 10px;
+    position: relative;
+ }
+ .is{
+    font-weight: bolder;
+    font-size: small;
+    cursor: pointer;
+    display: flex;
+    font-size: small;
+    gap: 214px;
+    box-shadow: 0 0.4px 0.4px gray;
+    
+   
+   
+    
+ }
+ .can{
+    font-weight: bolder;
+    font-size: small;
+    display: flex;
+    cursor: pointer;
+    font-size: small;
+    gap: 60px;
+    
+ }
+ 
+ 
+ .how{
+     font-weight: bolder;
+    font-size: small;
+    display: flex;
+    cursor: pointer;
+    font-size: small;
+    gap: 95px;
+   
+ }
+ 
+ 
+ .how:hover{
+   color: hsl(292, 42%, 14%) ;
+ }
